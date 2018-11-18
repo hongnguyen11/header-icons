@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 Merriweather, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.header {
+  background-color: #d05c2e;
+  color: #fff;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title div {
+  width: 40px;
+}
+
+.title h1 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  font-size: 1.125rem;
+  padding: .4em 0;
+  margin: 0;
+  align-items: stretch;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #a63f38;
+  padding: .5em 3.5em;
+
+}
+
+.menu a:hover {
+  background-color: #a63f38;
+}
